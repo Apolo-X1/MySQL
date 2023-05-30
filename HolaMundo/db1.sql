@@ -58,3 +58,6 @@ UPDATE animales SET estado = "mamadisimo" WHERE id = 1; -- solamente se actualiz
 
 -- eliminar registros de la base de datos de alguna tabla
 DELETE FROM animales WHERE id = 1; -- solamente se elimina por id
+
+-- eliminar una db
+DROP DATABASE nombre_de_la_db;
